@@ -1,4 +1,4 @@
-package org.example.listexamples;
+package org.example.list;
 
 public class ArrayExample {
 

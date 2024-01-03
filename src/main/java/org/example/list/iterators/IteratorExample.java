@@ -1,11 +1,10 @@
-package org.example.listexamples.iterators;
+package org.example.list.iterators;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
-public class ListIteratorExample {
+public class IteratorExample {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
@@ -13,14 +12,12 @@ public class ListIteratorExample {
         list.add(2); //1
         list.add(3); //2
 
-
-        // ListIterator
-        ListIterator<Integer> listIterator = list.listIterator();
-        while (listIterator.hasNext()) {
-            int val = listIterator.next();
+        // Iterator
+        Iterator<Integer> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            int val = iterator.next();
             if (val == 1) {
-                listIterator.remove();
-                listIterator.add(4);
+                iterator.remove();
             }
             System.out.println(val);
         }

@@ -1,4 +1,4 @@
-package org.example.listexamples;
+package org.example.list;
 
 import java.util.LinkedList;
 import java.util.List;

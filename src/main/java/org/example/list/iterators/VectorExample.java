@@ -1,4 +1,4 @@
-package org.example.listexamples.iterators;
+package org.example.list.iterators;
 
 import java.util.Enumeration;
 import java.util.Vector;
