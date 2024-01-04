@@ -1,8 +1,8 @@
-package org.example.list.comparable;
+package org.example.comparable;
 
 import java.util.Arrays;
 
-public class ComparableExample {
+public class ComparableOnArray {
     public static void main(String[] args) {
         Book[] books = {
                 new Book("Java Programming", 400),

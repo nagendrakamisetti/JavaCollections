@@ -1,4 +1,4 @@
-package org.example.list.comparable;
+package org.example.comparable;
 
 import lombok.Data;
 

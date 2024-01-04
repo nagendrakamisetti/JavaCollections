@@ -1,7 +1,5 @@
 package org.example.list;
 
-import org.example.models.Employee;
-
 import java.io.*;
 import java.util.ArrayList;
 

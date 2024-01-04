@@ -1,10 +1,10 @@
-package org.example.map.comparable;
+package org.example.comparable;
 
 import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class TreeMapWithComparableAndComparator {
+public class ComparableAndComparatorOnTreeMap {
     public static void main(String[] args) {
         // Creating a TreeMap with a custom Comparator to sort by name length
         Map<Person, String> personMap = new TreeMap<>(Comparator.comparingInt(person -> person.getName().length()));
